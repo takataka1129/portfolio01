@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header-title{
+	font-size: 50px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+}
+
+.text1{
+	font-size: 15px;
+	margin: 50px 0 0 270px;
+}
+
+.flex{
+	display: flex;
+}
+
+.block{
+	display: block;
+}
+.img1{
+	margin-left: 100px;
+}
+
+.text2{
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: 270px;
+}
+
+.text2-1{
+	font-size: 15px;
+	margin: 50px 0 0 270px;
+
+}
+
+.text3{
+	font-size: 25px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+.img2{
+	margin: 20px auto 0;
+}
+
+.kao-pc{
+	
+}
+
+.kao-sp{
+	display: none;
+}
+
+@media screen and (max-width: 480px) { /*ウィンドウ幅が0～479pxの場合にcssを適用*/
+
+
+
+.text1{
+	font-size: 15px;
+	margin: 50px auto;
+}
+
+
+.text2{
+	font-size: 20px;
+	text-align: center;
+	margin: 50px auto 20px;
+}
+
+.text2-1{
+	font-size: 15px;
+	margin: 5px auto;
+
+}
+
+.flex{
+	display: block;
+}
+
+.img1{
+	margin:30px auto;
+}
+
+.text3{
+	font-size: 20px;
+	font-family: "Arial Black", Gadget, "sans-serif";
+	text-align: center;
+	margin: 60px 5% 20px;
+}
+
+.img2{
+	margin: 10px auto 30px;
+}
+
+.kao-pc{
+	display: none;
+}
+	.kao-sp{
+		display: block;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
