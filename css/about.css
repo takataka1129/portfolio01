@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.header-title{
+.C-header-title{
 	font-size: 50px;
 	font-family: "Arial Black", Gadget, "sans-serif";
 	text-align: center;
@@ -9,111 +9,99 @@
 	margin-bottom: 40px;
 }
 
-.text1{
+.C-text1{
 	font-size: 15px;
 	margin: 50px 0 0 270px;
 }
 
-.flex{
+.L-flex{
 	display: flex;
 }
 
-.block{
+.L-block{
 	display: block;
 }
-.img1{
+.C-img1{
 	margin-left: 100px;
 }
 
-.text2{
+.C-text2{
 	font-size: 18px;
 	margin-top: 50px;
 	margin-left: 270px;
 }
 
-.text2-1{
+.C-text2-1{
 	font-size: 15px;
 	margin: 50px 0 0 270px;
 
 }
 
-.text3{
+.C-text3{
 	font-size: 25px;
 	font-family: "Arial Black", Gadget, "sans-serif";
 	text-align: center;
 	margin: 100px 0 0 0;
 }
 
-.img2{
+.C-img2{
 	margin: 20px auto 0;
 }
 
-.kao-pc{
-	
+.C-kao-pc{
+	display: block;
 }
 
-.kao-sp{
+.C-kao-sp{
 	display: none;
 }
 
 @media screen and (max-width: 480px) { /*ウィンドウ幅が0～479pxの場合にcssを適用*/
 
 
-
-.text1{
-	font-size: 15px;
-	margin: 50px auto;
-}
-
-
-.text2{
-	font-size: 20px;
-	text-align: center;
-	margin: 50px auto 20px;
-}
-
-.text2-1{
-	font-size: 15px;
-	margin: 5px auto;
-
-}
-
-.flex{
-	display: block;
-}
-
-.img1{
-	margin:30px auto;
-}
-
-.text3{
-	font-size: 20px;
-	font-family: "Arial Black", Gadget, "sans-serif";
-	text-align: center;
-	margin: 60px 5% 20px;
-}
-
-.img2{
-	margin: 10px auto 30px;
-}
-
-.kao-pc{
-	display: none;
-}
-	.kao-sp{
-		display: block;
+	.C-text1{
+		font-size: 15px;
+		margin: 50px auto;
 	}
 
 
+	.C-text2{
+		font-size: 20px;
+		text-align: center;
+		margin: 50px auto 20px;
+	}
 
+	.C-text2-1{
+		font-size: 15px;
+		margin: 5px auto;
 
+	}
 
+	.L-flex{
+		display: block;
+	}
 
+	.C-img1{
+		margin:30px auto;
+	}
 
+	.C-text3{
+		font-size: 20px;
+		font-family: "Arial Black", Gadget, "sans-serif";
+		text-align: center;
+		margin: 60px 5% 20px;
+	}
 
+	.C-img2{
+		margin: 10px auto 30px;
+	}
 
-
-
+	.C-kao-pc{
+		display: none;
+	}
+	.C-kao-sp{
+		display: block;
+	}
 
 
 }

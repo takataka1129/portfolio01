@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
- html {
-       height: 100%;
-       width: 100%;
-       font-size: 62.5%;
+html{
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%;
 }
 
 body{
@@ -15,63 +15,54 @@ body{
 	background-color: #FFFFFF;
 }
 
+body,h1,h2,h3,h4,h5,h6,p,figure,blockquote,ul,ol,dl,dd {
+    margin: 0
+}
+
 img{
 	max-width: 100%;
 	height:auto;
 	display: block;
 }
 
-.insta{
-	margin: 20px 0 0 270px;
-}
-
-.insta_btn3{
-	padding: 0.8em;
-  	transition: all .3s;
-}
-.insta_btn3:hover {
-  color: #FFFFFF;
-  background-color: #87ceeb;
-}
-
-.wrapper{
+.L-wrapper{
  /* max-width: 1300px;*/
   margin: 0 auto;
 }
-.name-box{
+.C-name-box{
 	max-width: 100%;
 }
-.name{
+.C-name{
 	margin: 40px 0 20px 60px;
 }
 
 nav{
-font-family: Tahoma, Geneva, "sans-serif";
-text-transform:uppercase;
-padding: 20px 40px 30px 0;
-text-align: right;
-font-size: 18px;
+	font-family: Tahoma, Geneva, "sans-serif";
+	text-transform:uppercase;
+	padding: 20px 40px 30px 0;
+	text-align: right;
+	font-size: 18px;
 }
 nav ul{
-margin: 0 ;
-padding: 0 ;
+	margin: 0 ;
+	padding: 0 ;
 }
 nav ul li{
-list-style: none;
-display: inline-block;
-width: 10%;
-min-width: 90px;
+	list-style: none;
+	display: inline-block;
+	width: 10%;
+	min-width: 90px;
 }
 nav ul li a{
-text-decoration: none;
-color: #000000;
+	text-decoration: none;
+	color: #000000;
 }
 
 nav ul li a:hover{
-color: #E7DA66;
+	color: #E7DA66;
 }
 
-.block{
+.L-block{
 	display: block;
 }
 
@@ -79,11 +70,11 @@ color: #E7DA66;
 	margin: 60px auto 20px;
 }
 
-.photo-box{
+.C-photo-box{
 	max-width: 100%;
 }
 
-.header-text{
+.C-header-title{
 	font-size: 50px;
 	font-family: "Arial Black", Gadget, "sans-serif";
 	text-align: center;
@@ -91,81 +82,80 @@ color: #E7DA66;
 	margin-bottom: 20px;
 
 }
-.text1{
+.C-text1{
 	font-size: 18px;
 	margin: 0 0 10px 290px;
 }
 
-.text-about{
+.C-text-about{
 	font-size: 18px;
 	margin: 20px 0 10px 290px;
 	font-family: "Arial Black", Gadget, "sans-serif";
 	text-transform: capitalize;
 }
-.text1-1{
+.C-text1-1{
 	font-size: 15px;
 	margin: 0 0 30px 290px;
 }
 
-.text2{
+.C-text2{
 	font-size: 18px;
 	margin: 50px 0 10px 290px;
 	font-family: "Arial Black", Gadget, "sans-serif";
 	text-transform: capitalize;
 }
 
-.flex{
+.L-flex{
 	display: flex;
 }
 
-.band1{
+.C-band1{
 	margin:0px 0 0 300px;
 }
 
-.band2{
+.C-band2{
 	margin:50px 50px 0px 50px;
 }
 
 
-.photo1{
+.C-photo1{
 	margin: 0 0 0 120px;
 }
 
-.photo2{
+.C-photo2{
 	margin:0px 0 0 350px;
 	
 }
-.about-box{
+.C-about-box{
 	margin: 50px 0 0px 0;
 }
-.copyright{
+
+.C-copyright{
 	text-align: center;
 }
 
-
-
-.text_w1{
+.C-text_w1{
 	font-size: 30px;
 	margin: 40px 0 0px 160px;
 }
 
-.text_w2{
+.C-text_w2{
 	font-size: 25px;
 	margin: 50px 0 0  20px;
 }
 
-.text_w3{
+.C-text_w3{
 	font-size: 15px;
 	margin: 30px 0 0 20px;
 }
 
 
-.text_w4{
+.C-text_w4{
 	font-size: 25px;
 	margin: 70px 0 0 420px;
 }
 
-.text_w5{
+.C-text_w5{
 	font-size: 15px;
 	margin: 30px 0 40px 420px;
 }
@@ -187,145 +177,140 @@ color: #E7DA66;
 }
 
 
-.photo-pc{
+.C-photo-pc{
 	display: block;
 }
-.photo-sp{
+.C-photo-sp{
 	display: none;
 }
 
 
 @media screen and (max-width: 480px) { /*ウィンドウ幅が0～479pxの場合にcssを適用*/
 
-.wrapper{
-  margin: 0 3%;
-}
-	
-	.name{
+	.L-wrapper{
+	margin: 0 3%;
+	}
+		
+	.C-name{
 		margin: 10px  auto 50px ;
 	}
 
-	.photo-pc{
+	.C-photo-pc{
 		display: none;
 	}
-	
-	.photo-sp{
+
+	.C-photo-sp{
 		display: block;
 	}
-	
-nav{
-font-family: Tahoma, Geneva, "sans-serif";
-text-transform:uppercase;
-padding: 0px;
-margin: 0 auto 70px;
-text-align: center;
-font-size: 20px;
-}	
-	
-	
-	
-nav ul li{
-list-style: none;
-display: inline-block;
-width: 15%;
-min-width: 100px;
-}	
-	
-	
-.text1{
-	font-size: 18px;
-	margin: 50px auto 10px;
-	text-align: center;
-}
+		
+	nav{
+		font-family: Tahoma, Geneva, "sans-serif";
+		text-transform:uppercase;
+		padding: 0px;
+		margin: 0 auto 70px;
+		text-align: center;
+		font-size: 20px;
+	}	
+		
+		
+		
+	nav ul li{
+		list-style: none;
+		display: inline-block;
+		width: 15%;
+		min-width: 100px;
+	}	
+		
+		
+	.C-text1{
+		font-size: 18px;
+		margin: 50px auto 10px;
+		text-align: center;
+	}
 
-.text1-1{
-	font-size: 15px;
-	margin: 0 auto 30px;
-}
+	.C-text1-1{
+		font-size: 15px;
+		margin: 0 auto 30px;
+	}
 
-.text2{
-	font-size: 18px;
-	margin: 50px auto 10px ;
-	text-align: center;
-}	
-	
-.flex{
-	display: block;
-}	
-	
-	
-.band1{
-	margin: 0 auto;
-}
-
-.band2{
-	margin:5px auto ;
-}
-
-	.band3{
+	.C-text2{
+		font-size: 18px;
+		margin: 50px auto 10px ;
+		text-align: center;
+	}	
+		
+	.L-flex{
+		display: block;
+	}	
+		
+		
+	.C-band1{
 		margin: 0 auto;
 	}
-.photo1{
-	margin: 0 auto;
-	width: 100%;
-}
 
-.photo2{
-	margin: 0 auto;
-	width: 100%;
-	
-}	
-	
+	.C-band2{
+		margin:5px auto ;
+	}
 
-.band{
-	margin: 0 auto;
-	width: 100%;
-}	
+	.C-band3{
+		margin: 0 auto;
+	}
 
-	
-.text_w1{
-	font-size: 30px;
-	margin: 40px auto;
-	text-align: center;
-}
+	.C-photo1{
+		margin: 0 auto;
+		width: 100%;
+	}
 
-.text_w2{
-	font-size: 20px;
-	margin: 10px auto;
-	text-align: center;
-}
+	.C-photo2{
+		margin: 0 auto;
+		width: 100%;
+		
+	}	
+		
 
-.text_w3{
-	font-size: 15px;
-	margin: 30px auto 20px ;
-	
-}
+	.C-band{
+		margin: 0 auto;
+		width: 100%;
+	}	
 
+		
+	.C-text_w1{
+		font-size: 30px;
+		margin: 40px auto;
+		text-align: center;
+	}
 
-.text_w4{
-	font-size: 20px;
-	margin: 70px auto 10px;
-	text-align: center;
-}
+	.C-text_w2{
+		font-size: 20px;
+		margin: 10px auto;
+		text-align: center;
+	}
 
-.text_w5{
-	font-size: 15px;
-	margin: 30px auto 40px;
-}
-	
-	
-.img_wrap{
-  border: 1px solid #ddd;
-  width: 300px;
-  margin: 50px auto;
-  overflow: hidden;
-}
-	
-.insta{
-	margin: 20px 0 0 0px;
-	text-align: center;
-}
-	
+	.C-text_w3{
+		font-size: 15px;
+		margin: 30px auto 20px ;
+		
+	}
+
+	.C-text_w4{
+		font-size: 20px;
+		margin: 70px auto 10px;
+		text-align: center;
+	}
+
+	.C-text_w5{
+		font-size: 15px;
+		margin: 30px auto 40px;
+	}
+		
+		
+	.img_wrap{
+	border: 1px solid #ddd;
+	width: 300px;
+	margin: 50px auto;
+	overflow: hidden;
+	}
+		
 
 }
 

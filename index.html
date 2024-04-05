@@ -1,145 +1,136 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>TAKAO OKADA</title>
+    <meta charset="UTF-8">
+    <title>TAKAO OKADA</title>
 
-<meta content="岡田稜央(TAKAO OKADA)のポートフォリオサイト。自己紹介サイト。制作物(Works)を掲載。" name="description">
-	
-<meta name="keywords" content="岡田稜央,TAKAOOKADA, portfolio,ポートフォリオ">
-	
-<!--Twitterカード
-	<meta name="twitter:card" content="summary_large_image">
-	
-	<meta name="twitter:site" content="@takaookada777">
-	
-	<meta property="og:url" content="http://bisquelizard16.sakura.ne.jp">
-	
-	<meta property="og:title" content="TAKAO OKADA ポートフォリオサイト"> 
-	
-	<meta property="og:description" content="岡田稜央のポートフォリオサイトです"> 
-	
-	<meta property="og:image" content="http://bisquelizard16.sakura.ne.jp/img/header-%E5%A3%81%E7%B4%99.png">
--->	
-	
-<link rel="shortcut icon" href="favicon_top.ico">
-<!-- Enable users to add your web application or webpage link to the Home screen. Replace icon.png with your icon file path -->
-<link rel="apple-touch-icon" href="icon.png">
-<!-- Specify a launch screen image that is displayed while your web application launches. Replace app.png with your image file path -->
-<link rel="apple-touch-startup-image" href="app.png">
-<!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
-<meta http-equiv="cleartype" content="on">
-<!-- Specify whether or not telephone numbers in the HTML content should appear as hypertext links -->
-<meta name="format-detection" content="telephone=no" />
-<!-- Changes the logical window size used when displaying a page mobile browsers -->
-<meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
-	
-  <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">	
-	
-	
-	
-<style type="text/css">
-#photo{
-    width: 1024px;
-    height: 500px;
-    margin: 0 auto;
-    text-align: left;
-    overflow: hidden;
-    position: relative;
-}
+    <meta content="岡田稜央(TAKAO OKADA)のポートフォリオサイト。自己紹介サイト。制作物(Works)を掲載。" name="description">
+        
+    <meta name="keywords" content="岡田稜央,TAKAOOKADA, portfolio,ポートフォリオ">
+        
+    <!--Twitterカード
+        <meta name="twitter:card" content="summary_large_image">
+        
+        <meta name="twitter:site" content="@takaookada777">
+        
+        <meta property="og:url" content="http://bisquelizard16.sakura.ne.jp">
+        
+        <meta property="og:title" content="TAKAO OKADA ポートフォリオサイト"> 
+        
+        <meta property="og:description" content="岡田稜央のポートフォリオサイトです"> 
+        
+        <meta property="og:image" content="http://bisquelizard16.sakura.ne.jp/img/header-%E5%A3%81%E7%B4%99.png">
+    -->	
+        
+    <link rel="shortcut icon" href="favicon_top.ico">
+    <!-- Enable users to add your web application or webpage link to the Home screen. Replace icon.png with your icon file path -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Specify a launch screen image that is displayed while your web application launches. Replace app.png with your image file path -->
+    <link rel="apple-touch-startup-image" href="app.png">
+    <!-- Mobile Internet Explorer allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+    <!-- Specify whether or not telephone numbers in the HTML content should appear as hypertext links -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- Changes the logical window size used when displaying a page mobile browsers -->
+    <meta name = "viewport" content = "width = device-width, initial-scale=1, user-scalable=yes">
+        
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">	
+        
+        
+        
+    <style type="text/css">
+        #photo{
+            width: 1024px;
+            height: 500px;
+            margin: 0 auto;
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+        }
 
-	
-	
-#photo img {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-</style>
+        #photo img {
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    </style>
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var setImg = '#photo';
+            var fadeSpeed = 3000;
+            var switchDelay = 3400;
 
-<script type="text/javascript">
-$(function(){
-    var setImg = '#photo';
-    var fadeSpeed = 3000;
-    var switchDelay = 3400;
+            $(setImg).children('img').css({opacity:'0'});
+            $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
 
-    $(setImg).children('img').css({opacity:'0'});
-    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+            setInterval(function(){
+                $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+            },switchDelay);
+        });
 
-    setInterval(function(){
-        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
-    },switchDelay);
-});
+    </script>
 
-</script>
-
-
-	
-<style type="text/css">
-#photo2{
-    width: 1024px;
-    height: 230px;
-    margin: 0 auto;
-    text-align: left;
-    overflow: hidden;
-    position: relative;
-}
-
-	
-	
-#photo2 img {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-</style>
+    <style type="text/css">
+        #photo2{
+            width: 1024px;
+            height: 230px;
+            margin: 0 auto;
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+        }
+            
+        #photo2 img {
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+    </style>
 
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script type="text/javascript">
-$(function(){
-    var setImg = '#photo2';
-    var fadeSpeed = 3000;
-    var switchDelay = 3400;
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#photo2';
+        var fadeSpeed = 3000;
+        var switchDelay = 3400;
 
-    $(setImg).children('img').css({opacity:'0'});
-    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
 
-    setInterval(function(){
-        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
-    },switchDelay);
-});
-</script>	
-	
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>	
+        
 </head>
 
 	
 <body>
   
-	<div class="wrapper">
+	<div class="L-wrapper">
 
-      
 		<header>
 
-			
-			<a class="name-box" href="index.html"><img src="img/namae.png" class="name"></a>
+			<a class="C-name-box" href="index.html"><img src="img/namae.png" class="C-name"></a>
 			
 			<nav>
-					<ul>
-						<li><a href="about.html">about</a></li>
-						<li><a href="profile.html">profile</a></li>
-						<li><a href="works.html">works</a></li>
+                <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="profile.html">profile</a></li>
+                    <li><a href="works.html">works</a></li>
 
-					</ul>
+                </ul>
 			</nav>
 
-			<div class="photo-pc">
+			<div class="C-photo-pc">
 			
-				<div id="photo" class="photo-box">
+				<div id="photo" class="C-photo-box">
 					<img src="img/kabegami.png" width="1024px" height="500px" alt="">
 					<img src="img/cosumosu.png" width="1024px" height="500px" alt="">
 					<img src="img/ibis-rogo.png" width="1024px" height="500px" alt="">
@@ -148,11 +139,11 @@ $(function(){
 
 			</div>
 			
+
+            <!-- spレイアウト -->
+			<div class="C-photo-sp">
 			
-			
-			<div class="photo-sp">
-			
-				<div id="photo2" class="photo-box">
+				<div id="photo2" class="C-photo-box">
 					<img src="img/kabegami.png" width="1024px" height="500px" alt="">
 					<img src="img/cosumosu.png" width="1024px" height="500px" alt="">
 					<img src="img/ibis-rogo.png" width="1024px" height="500px" alt="">
@@ -163,9 +154,9 @@ $(function(){
 			
 		</header>
 
-		<hr class="about-box" color="#000000">
+		<hr class="C-about-box" color="#000000">
 		
-		<p class="copyright">&copy;　2024 Takao Okada </p>
+		<p class="C-copyright">&copy;　2024 Takao Okada </p>
 	
 	
 	</div>
